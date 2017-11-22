@@ -12,9 +12,9 @@ class Song
       @name = name
       @artist = artist
       @genre = genre
-      @count += 1
-      @genres << genre
-      @artists << artist
+      @@count += 1
+      @@genres << genre
+      @@artists << artist
     end
 
     # how to count and add artists to the DB
